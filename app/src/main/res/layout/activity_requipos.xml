@@ -14,11 +14,11 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="24dp"
-        android:text="Button"
+        android:text="Listado de Entretamientos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRegisterMatch" />
 
     <TextView
         android:id="@+id/tvRegistroE"
@@ -46,13 +46,13 @@
         app:layout_constraintTop_toBottomOf="@+id/etTimage" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnRegisterMatch"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="96dp"
         android:layout_marginEnd="24dp"
-        android:text="Button"
+        android:text="Registrar Entrentamientos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

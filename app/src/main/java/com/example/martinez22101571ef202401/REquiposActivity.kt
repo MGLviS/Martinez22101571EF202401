@@ -1,5 +1,6 @@
 package com.example.martinez22101571ef202401
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -25,6 +26,7 @@ class REquiposActivity : AppCompatActivity() {
         val etTname: EditText = findViewById(R.id.etTname)
         val etTimage: EditText = findViewById(R.id.etTimage)
         val btnAddTeam: Button = findViewById(R.id.btnRegistrarTeam)
+        val btnRegisterMatch: Button = findViewById(R.id.btnRegisterMatch)
 
         btnAddTeam.setOnClickListener {
             val teamName = etTname.text.toString()
@@ -46,6 +48,10 @@ class REquiposActivity : AppCompatActivity() {
                     // Error
                 }
 
+        }
+
+        btnRegisterMatch.setOnClickListener {
+            startActivity(Intent(this, MatchActivity::class.java))
         }
 
     }
