@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "231745941440",
+    "project_id": "martinezef202401",
+    "storage_bucket": "martinezef202401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231745941440:android:d486c9f297d82b822b6225",
+        "android_client_info": {
+          "package_name": "com.example.martinez22101571ef202401"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-NaF6PqAu823xlr9ZoVjT10veEObnQ3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
