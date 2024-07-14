@@ -33,6 +33,7 @@ class MatchActivity : AppCompatActivity() {
         val etCempate: EditText = findViewById(R.id.etCempate)
         val btnCuotas: Button = findViewById(R.id.btnCuotas)
         val btnRegistrarE: Button = findViewById(R.id.btnRegistrarE)
+        val btnListarEn: Button = findViewById(R.id.btnListarEn)
         val db = FirebaseFirestore.getInstance()
         val teamsCollection = db.collection("teams")
         val teamNames = ArrayList<String>()
@@ -84,6 +85,9 @@ class MatchActivity : AppCompatActivity() {
         }
         btnRegistrarE.setOnClickListener {
             startActivity(Intent(this, REquiposActivity::class.java))
+        }
+        btnListarEn.setOnClickListener {
+            startActivity(Intent(this, ListarActivity::class.java))
         }
 
 

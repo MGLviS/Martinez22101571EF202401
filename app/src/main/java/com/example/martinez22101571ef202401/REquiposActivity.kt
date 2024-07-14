@@ -27,6 +27,7 @@ class REquiposActivity : AppCompatActivity() {
         val etTimage: EditText = findViewById(R.id.etTimage)
         val btnAddTeam: Button = findViewById(R.id.btnRegistrarTeam)
         val btnRegisterMatch: Button = findViewById(R.id.btnRegisterMatch)
+        val btnListarEnfrenta: Button = findViewById(R.id.btnListarEnfrenta)
 
         btnAddTeam.setOnClickListener {
             val teamName = etTname.text.toString()
@@ -52,6 +53,10 @@ class REquiposActivity : AppCompatActivity() {
 
         btnRegisterMatch.setOnClickListener {
             startActivity(Intent(this, MatchActivity::class.java))
+        }
+
+        btnListarEnfrenta.setOnClickListener {
+            startActivity(Intent(this, ListarActivity::class.java))
         }
 
     }
